@@ -21,7 +21,7 @@ func GetExist() []string {
 	//disks := []string{"C:\\", "D:\\", "E:\\", "F:\\", "G:\\", "H:\\", "I:\\", "J:\\", "K:\\", "L:\\", "M:\\", "N:\\",
 	//	"O:\\", "P:\\", "Q:\\", "R:\\", "S:\\", "T:\\", "U:\\", "V:\\", "W:\\", "X:\\", "Y:\\", "Z:\\"}
 
-	disks := []string{"C:\\Users\\gdvvl\\go\\src\\gobucks"}
+	disks := []string{"C:\\Users\\gdvvl\\go"}
 
 	for i := 0; i < len(disks); i++ {
 		disk := disks[i]
