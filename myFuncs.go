@@ -2,7 +2,6 @@ package myFuncs
 
 import (
 	"errors"
-	"fmt"
 	"os"
 )
 
@@ -33,6 +32,6 @@ func GetExist() []string {
 			}
 		}
 	}
-	fmt.Println(disksClear)
+	//fmt.Println(disksClear)
 	return disksClear
 }
